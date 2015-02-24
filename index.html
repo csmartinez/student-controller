@@ -58,7 +58,7 @@
         <h3>Without Permission Slips</h3>
         <ul>
           <li ng-repeat="item in studentsWithoutPermission = (students | filter:{ permissionSlip: false })">
-            {{item.name}} <a ng-click="addStudentWithPermissionSlip(item)"> -Permission Slip Recieved- </a>
+            {{item.name}} <a ng-click="addStudentWithPermissionSlip(item)"> Permission Slip Recieved </a>
           </li>
         </ul>
       </div>
